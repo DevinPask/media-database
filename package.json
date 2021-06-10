@@ -4,15 +4,25 @@
   "description": "An API for a social media app built with Express, Mongoose, and MongoDB",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {},
   "dependencies": {
     "express": "^4.17.1",
     "moment": "^2.29.0",
+    "mongodb": "^3.6.9",
     "mongoose": "^5.12.13"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevinPask/media-database.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DevinPask/media-database/issues"
+  },
+  "homepage": "https://github.com/DevinPask/media-database#readme"
 }
